@@ -1,0 +1,41 @@
+{
+  "name": "csv-extend",
+  "version": "0.1.0",
+  "description": "Extend CSV",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:debug",
+    "build:debug": "webpack --debug --devtool source-map --output-pathinfo",
+    "build:watch": "npm run build:debug -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlhannes/csv-extend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlhannes/csv-extend/issues"
+  },
+  "homepage": "https://github.com/carlhannes/csv-extend#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "litequery": "^0.2.1",
+    "style-loader": "^0.19.0",
+    "watch": "^1.0.2",
+    "webpack": "^3.9.1",
+    "webpack-livereload-plugin": "^1.0.0",
+    "yargs": "^10.0.3"
+  }
+}
